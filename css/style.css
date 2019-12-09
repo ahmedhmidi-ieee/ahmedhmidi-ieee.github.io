@@ -12,10 +12,13 @@ header.bdp-header {
     display: block;
 }
 body{
+    text-align: center;
+    color: white;
     background-image: url("../img/bg.png");
     background-size: cover;
-    background-repeat: no-repeat;
-    
+    background-repeat: repeat;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 #particles-js {
